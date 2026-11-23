@@ -1,0 +1,6 @@
+$kind: http-request
+name: /user/<user_id>  Find the username of user with user_id
+description: ""
+url: "{{url}}/user/1"
+method: GET
+order: 10725

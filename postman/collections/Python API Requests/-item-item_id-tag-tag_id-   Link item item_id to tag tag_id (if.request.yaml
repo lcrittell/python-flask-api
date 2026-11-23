@@ -1,0 +1,9 @@
+$kind: http-request
+name: /item/<item_id>/tag/<tag_id>   Link item item_id to tag tag_id (if they are in the same store)
+description: ""
+url: "{{url}}/item/1/tag/1"
+method: POST
+body:
+  type: json
+  content: ""
+order: 11725

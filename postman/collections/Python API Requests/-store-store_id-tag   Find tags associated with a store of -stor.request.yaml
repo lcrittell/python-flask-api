@@ -1,0 +1,6 @@
+$kind: http-request
+name: /store/<store_id>/tag   Find tags associated with a store of <store_id>
+description: ""
+url: "{{url}}/store/1/tag"
+method: GET
+order: 9725
