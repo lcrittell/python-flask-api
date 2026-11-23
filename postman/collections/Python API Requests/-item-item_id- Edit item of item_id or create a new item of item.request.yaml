@@ -1,0 +1,9 @@
+$kind: http-request
+name: /item/<item_id> Edit item of item_id or create a new item of item_id
+description: ""
+url: http://localhost:5005/item/1
+method: PUT
+body:
+  type: json
+  content: '{"name": "Item 2", "price": 50}'
+order: 6725

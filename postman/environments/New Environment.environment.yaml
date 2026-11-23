@@ -1,0 +1,6 @@
+name: New Environment
+values:
+  - key: url
+    value: ''
+  - key: access_token
+    value: ''

@@ -1,0 +1,9 @@
+$kind: http-request
+name: /item/<item_id> Delete an item of item_id
+description: ""
+url: http://localhost:5005/item/2
+method: DELETE
+body:
+  type: json
+  content: ""
+order: 6413

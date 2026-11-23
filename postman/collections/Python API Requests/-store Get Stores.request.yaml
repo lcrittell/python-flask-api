@@ -1,0 +1,6 @@
+$kind: http-request
+name: /store Get Stores
+description: ""
+url: http://localhost:5005/store
+method: GET
+order: 1000

@@ -1,0 +1,6 @@
+$kind: http-request
+name: /store/<store_id> Find <store> on the server and get info
+description: ""
+url: http://localhost:5005/store/2
+method: GET
+order: 4000

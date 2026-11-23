@@ -1,0 +1,15 @@
+$kind: http-request
+name: /register Register a new user
+description: ""
+url: "{{url}}/register"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\": \"test\",\r
+
+    \    \"password\": \"test\"\r
+
+    }"
+order: 7725

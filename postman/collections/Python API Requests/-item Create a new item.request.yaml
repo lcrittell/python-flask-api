@@ -1,0 +1,9 @@
+$kind: http-request
+name: /item Create a new item
+description: ""
+url: http://localhost:5005/item
+method: POST
+body:
+  type: json
+  content: '{"name": "New Item 2", "price": 1.99, "store_id": 1}'
+order: 3000

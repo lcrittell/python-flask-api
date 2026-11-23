@@ -1,0 +1,6 @@
+$kind: http-request
+name: /item Get all items
+description: ""
+url: http://localhost:5005/item
+method: GET
+order: 2732
